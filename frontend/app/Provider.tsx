@@ -1,9 +1,9 @@
 import { store } from "@/redux/store";
-import React from "react";
+import React, { ReactNode } from "react";
 import { Provider } from "react-redux";
 
 interface ProvidersProps {
-  children: any;
+  children: ReactNode;
 }
 
 export function Providers({ children }: ProvidersProps) {
